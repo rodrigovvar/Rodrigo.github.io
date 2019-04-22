@@ -5,6 +5,8 @@
  	list-style: none;
  	text-decoration: none;
  	color: black;
+ 	font-family: 'Cute Font', cursive;
+ 	font-size: 25px;
  }
  .li-menu{
  	display: inline-block;
@@ -13,34 +15,52 @@
  }
 
 .container-main{
-	padding: 50px;
+	text-align: justify;
 	display: flex;
-	flex-direction: row;
 	align-items: center;
-	justify-content: space-between;
 	width: 900px;
+	margin-left: 30px; 
+
+}
+.texto-apresentacao{
+	margin-left: 50px;
+	font-family: 'Cute Font', cursive;
+	font-size: 20px;
+
+	 
+}
+.vainaweb{
+	background-color: blue;
+	color: #FFA500;
+}
+.rodrigonome{
+	background: black;
+	color: red;	
+}
+.recicla{
+	background:#FFFF00; 
+	color:#00FF00;
+}
+.turismo{
+	color: #00FA9A;
+}
+.atividades{
+	color: #DC143C;
 }
 .perfil-imagem{
 	width: 300px;
 	border-radius: 200px;
 }
-.apresentacao{
-	
- }
 .icon-gmail{
 	width: 27px;
 
 }
 
+
 .icon-insta{
 	width: 50px;
 }
-.final{
-
+a{
+	text-decoration: none;
 }
 
-body{
-	/* 00ffff ADD8E6 */
-
-	
-}
